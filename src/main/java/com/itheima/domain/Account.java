@@ -28,4 +28,13 @@ public class Account {
     public void setRemaining(Double remaining) {
         this.remaining = remaining;
     }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "accountId='" + accountId + '\'' +
+                ", password='" + password + '\'' +
+                ", remaining=" + remaining +
+                '}';
+    }
 }
