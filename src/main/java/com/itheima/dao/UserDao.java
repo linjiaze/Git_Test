@@ -11,4 +11,9 @@ public interface UserDao {
     List<User> findAll();
 
     User findByName(String name);
+
+    boolean inser(User user);
+
+    boolean update(User user);
+
 }
